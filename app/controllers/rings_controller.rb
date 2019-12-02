@@ -1,5 +1,6 @@
 class RingsController < ApplicationController
   before_action :set_ring, only: [:show, :update, :destroy]
+  before_action :authorize_request, except: %i[index show]
 
   # GET /rings
   def index

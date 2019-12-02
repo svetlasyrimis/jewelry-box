@@ -1,5 +1,6 @@
 class NecklacesController < ApplicationController
   before_action :set_necklace, only: [:show, :update, :destroy]
+  before_action :authorize_request, except: %i[index show]
 
   # GET /necklaces
   def index

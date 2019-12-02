@@ -1,5 +1,6 @@
 class EarRingsController < ApplicationController
   before_action :set_ear_ring, only: [:show, :update, :destroy]
+  before_action :authorize_request, except: %i[index show]
 
   # GET /ear_rings
   def index

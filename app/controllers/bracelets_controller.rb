@@ -1,5 +1,6 @@
 class BraceletsController < ApplicationController
   before_action :set_bracelet, only: [:show, :update, :destroy]
+  before_action :authorize_request, except: %i[index show]
 
   # GET /bracelets
   def index
