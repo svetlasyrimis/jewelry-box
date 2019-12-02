@@ -1,0 +1,2 @@
+class Bracelet < ApplicationRecord
+end

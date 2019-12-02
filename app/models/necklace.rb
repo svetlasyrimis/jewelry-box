@@ -1,0 +1,2 @@
+class Necklace < ApplicationRecord
+end

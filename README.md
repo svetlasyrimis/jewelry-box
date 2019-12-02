@@ -11,7 +11,11 @@ Description
 Estimated Value
 Notes
 
+item img_url color material description value:integer notes 
+
 ERD And Wireframes are images in the Images folder
+
+
 
 
 
