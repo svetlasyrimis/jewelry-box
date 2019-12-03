@@ -3,6 +3,13 @@
 Jewelry Box App
  This app is designed to make choosing jewelry simpler. It will have 4 choices of jewelry (necklaces, bracelets, ear ring and ring) that can be added, edited and deleted to a database by a user. Due to the sensativity and value all users must be signed in to use the app.
 
+![](Images/ERD.png)
+
+![](Images/Home-Page.png)
+
+![](Images/Main-Page.png)
+
+
 Each item of jewelry will feature:
 Photo
 Color
